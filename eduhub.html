@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>eduhub</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+        div#container {
+            width: 900px;
+            height: auto;
+            background-color: antiquewhite;
+            margin: 0px auto;
+        }
+        nav {
+            width: 900px;
+            height: 80px;
+            background-color: rgb(189, 158, 118);
+            padding-top: 30px; 
+            padding-left: 50px;
+            box-sizing: border-box;
+        }
+        nav h1, nav ul, nav li {
+            display: inline-block;
+        }
+        nav h1 {
+            margin-right: 50px;
+            /* font-size: 50px; */
+
+        }
+        nav ul, nav li {
+            margin-right: 20px;
+
+        }
+        section {
+            width: 900px;
+            height: 100px;
+            text-align: center;
+            padding-top: 80px;
+            background-color: cornsilk;
+        }
+        section.signupsection {
+            background-color: rgb(238, 162, 63);
+        }
+        div.content {
+            background-color: darkcyan;
+        }
+        div.content-header {
+            text-align: center;
+            padding: 50px 0;
+            box-sizing: border-box;
+            background-color: rgb(139, 194, 29);
+        }
+        div.content-holder {
+            text-align: center;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+        div.offer-image, p.offer-para {
+            display: inline-block;
+            width: 400px;
+            height: 400px;
+            background-color: darkgrey;
+            vertical-align: middle;
+        }
+        div.package-list {
+            background-color: white;
+            text-align: center;
+            width: 200px;
+            height: 250px;
+            margin-right: 20px;
+            display: inline-block;
+            border-radius: 30px;
+            box-shadow: 0px 0px 10px black;
+            overflow: hidden;
+        }
+        div.package-list img {
+            width: 100%;
+            height: 100%;
+        }
+        div.student-list {
+            width: 200px;
+            height: 200px;
+            margin: 10px 15px;
+            background-color: white;
+            display: inline-block;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        div.student-list img {
+            width: 100%;
+            height: 100%;
+        }
+        div.submit-button {
+            width: 200px;
+            height: 50px;
+            background-color: rgb(148, 148, 73);
+            color: white;
+            text-align: center;
+            padding: 15px 0px;
+            box-sizing: border-box;
+            border-style: solid;
+            border-color: white;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <nav>
+            <h1>eduhub</h1>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        <section class="section">
+            <h2>Eduhub <br/> Get Smart!</h2>
+        </section>
+        <section class="signupsection">
+            <h2>Sign up now!</h2>
+            <form>
+                <input placeholder="Your Email" type="email" />
+                <button>Sign up</button>
+            </form>
+        </section>
+        <div class="content">
+            <div class="content-header">
+                <h2>What we offer?</h2>
+            </div>
+            <div class="content-holder">
+                <div class="offer-image"></div>
+                <p class="offer-para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-header">
+                <h2>Our packages</h2>
+            </div>
+            <div class="content-holder">
+                <div class="package-list">
+                    <img src="copy_images/pakistan.jpg" />
+                </div>
+                <div class="package-list">
+                    <img src="copy_images/switz.jpg" />
+                </div>
+                <div class="package-list">
+                    <img src="copy_images/sakura trees.jpg" />
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-header"><h2>What student say?</h2>
+            </div>
+            <div class="content-holder">
+                <div class="student-list">
+                    <img src="copy_images/elonmusk.jpg" />
+                </div>
+                <div class="student-list">
+                    <img src="copy_images/jack ma.jpg" />
+                </div>
+                <div class="student-list">
+                    <img src="copy_images/steve job.jpg" />
+                </div>
+                <div class="submit-button">
+                    <p>Submit Now</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
